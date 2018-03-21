@@ -13,3 +13,10 @@ import de.fhpotsdam.unfolding.tiles.*;
 import de.fhpotsdam.unfolding.ui.*;
 import de.fhpotsdam.unfolding.utils.*;
 import de.fhpotsdam.utils.*;
+
+import org.openkinect.freenect.*;
+import org.openkinect.processing.*;
+
+KinectTracker tracker;
+Kinect kinect;
+Slider slider;
